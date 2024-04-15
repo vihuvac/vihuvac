@@ -184,7 +184,7 @@
   </a>
 </p>
 
-<h3 align="left">This week I've been working with:</h3>
+<h3 align="left">Weekly development breakdown:</h3>
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
