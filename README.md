@@ -189,11 +189,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-JavaScript        7 hrs 57 mins   ███████░░░░░░░░░░░░░░░░░░   28.36 %
-JSON              7 hrs 39 mins   ██████▓░░░░░░░░░░░░░░░░░░   27.33 %
-CocoaPods         7 hrs 8 mins    ██████▒░░░░░░░░░░░░░░░░░░   25.46 %
-Other             2 hrs           █▓░░░░░░░░░░░░░░░░░░░░░░░   07.14 %
-Groovy            1 hr 2 mins     █░░░░░░░░░░░░░░░░░░░░░░░░   03.70 %
+JavaScript        11 hrs 31 mins  ██████████▓░░░░░░░░░░░░░░   43.02 %
+JSON              6 hrs 31 mins   ██████░░░░░░░░░░░░░░░░░░░   24.37 %
+CocoaPods         2 hrs 25 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.03 %
+Other             1 hr 58 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   07.39 %
+TypeScript        1 hr 57 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   07.30 %
 ```
 
 <!--END_SECTION:waka-->
