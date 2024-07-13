@@ -189,11 +189,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-TypeScript      20 hrs 45 mins  ████████████████████▒░░░░   80.99 %
-JavaScript      4 hrs 30 mins   ████▒░░░░░░░░░░░░░░░░░░░░   17.60 %
-Other           8 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.52 %
-CocoaPods       4 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.26 %
-Objective-C++   3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.25 %
+TypeScript      22 hrs 18 mins  ████████████████████▓░░░░   82.74 %
+JavaScript      4 hrs 20 mins   ████░░░░░░░░░░░░░░░░░░░░░   16.12 %
+Other           8 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.55 %
+Objective-C++   3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.24 %
+Swift           3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.22 %
 ```
 
 <!--END_SECTION:waka-->
