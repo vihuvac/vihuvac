@@ -46,7 +46,6 @@
 ## ⏳ Weekly Development Focus
 
 <!--START_SECTION:waka-->
-<<<<<<< Updated upstream
 
 ```txt
 Swift        9 hrs 48 mins   █████████▒░░░░░░░░░░░░░░░   37.44 %
@@ -56,8 +55,6 @@ Markdown     1 hr 45 mins    █▓░░░░░░░░░░░░░░░
 CSS          1 hr 17 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   04.95 %
 ```
 
-=======
->>>>>>> Stashed changes
 <!--END_SECTION:waka-->
 
 ## 🎯 Currently Exploring
