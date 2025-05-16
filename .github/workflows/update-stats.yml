@@ -2,13 +2,13 @@ name: Waka Readme
 
 on:
   schedule: # execute every 2 hours
-    - cron: "* */2 * * *"
+    - cron: '* */2 * * *'
 
   workflow_dispatch:
 
   push:
     branches:
-    - main
+      - main
 
 jobs:
   update-readme:
@@ -19,5 +19,6 @@ jobs:
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          TARGET_BRANCH: waka-stats
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
