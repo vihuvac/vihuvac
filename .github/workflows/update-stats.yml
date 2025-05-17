@@ -8,7 +8,7 @@ on:
 
   push:
     branches:
-      - main
+      - waka-stats
 
 jobs:
   update-readme:
