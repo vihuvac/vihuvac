@@ -48,11 +48,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Terraform    19 hrs 43 mins  ███████████▓░░░░░░░░░░░░░   46.06 %
-TypeScript   4 hrs 36 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.75 %
-YAML         3 hrs 8 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   07.33 %
-Docker       2 hrs 38 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.19 %
-Other        2 hrs 35 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.05 %
+Terraform    19 hrs          ███████████▒░░░░░░░░░░░░░   44.68 %
+Docker       4 hrs 14 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.97 %
+TypeScript   3 hrs 42 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   08.72 %
+Other        2 hrs 29 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.85 %
+Cheetah      2 hrs 24 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.68 %
 ```
 
 <!--END_SECTION:waka-->
