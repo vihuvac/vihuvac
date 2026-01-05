@@ -13,12 +13,16 @@ on:
 jobs:
   update-readme:
     name: Update Readme with Metrics
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
 
     steps:
-      - uses: athul/waka-readme@master
+      - uses: actions/checkout@v4
+      - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          TARGET_BRANCH: main
-        env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SHOW_TOTAL_CODE_TIME: true
+          SHOW_LINES_OF_CODE: true
+          SECTION_NAME: waka
