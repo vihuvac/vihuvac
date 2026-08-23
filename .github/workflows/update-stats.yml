@@ -1,8 +1,9 @@
 name: Waka Readme
 
 on:
-  schedule: # execute every 2 hours
-    - cron: '* */2 * * *'
+  schedule:
+    # Runs at minute 0 every 2 hours (00:00, 02:00, 04:00, etc.).
+    - cron: "0 */2 * * *"
 
   workflow_dispatch:
 
@@ -13,12 +14,59 @@ on:
 jobs:
   update-readme:
     name: Update Readme with Metrics
+
+    permissions:
+      contents: write
+
     runs-on: ubuntu-latest
 
     steps:
-      - uses: athul/waka-readme@master
+      - uses: actions/checkout@v4
+        with:
+          # Checks out the PR branch dynamically on pull_request, or the target branch on push/schedule.
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          TARGET_BRANCH: main
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+          # Target dynamic branch for read and write.
+          PULL_BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
+          PUSH_BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
+
+          # Language display settings.
+          SHOW_LANGUAGE: "True"
+          # LANG_COUNT: "10"
+
+          # Hide the three labels.
+          SHOW_UPDATED_DATE: "False"
+
+          # Disable extra sections to keep clean language-only stats.
+          SHOW_OS: "False"
+          SHOW_PROJECTS: "False"
+          SHOW_EDITORS: "False"
+          SHOW_LANGUAGE_PER_REPO: "False"
+          SHOW_TIMEZONE: "False"
+          SHOW_COMMIT: "False"
+          SHOW_DAYS_OF_WEEK: "False"
+          SHOW_SHORT_INFO: "False"
+          SHOW_PROFILE_VIEWS: "False"
+          SHOW_LOC_CHART: "False"
+          SHOW_TOTAL_CODE_TIME: "False"
+          SHOW_AI_CODING: "False"
+          SHOW_AI_CODE_TIME: "False"
+
+      # Strip hardcoded labels the action doesn't expose flags for.
+      # The action already pushed its own commit, so we must pull --rebase first
+      # to sync the local workspace before we can push our cleanup commit on top.
+      - name: Remove hardcoded labels from stats
+        run: |
+          git pull --rebase
+          sed -i '/^📊 \*\*This Week I Spent My Time On\*\*/d' README.md
+          sed -i '/^💬 \*\*Programming Languages:\*\*/d' README.md
+          git config user.name "readme-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: Remove hardcoded labels from stats."
+          git push
