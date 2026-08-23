@@ -14,8 +14,10 @@ on:
 jobs:
   update-readme:
     name: Update Readme with Metrics
+
     permissions:
       contents: write
+
     runs-on: ubuntu-latest
 
     steps:
