@@ -23,8 +23,34 @@ jobs:
       - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_OS: false
-          SHOW_PROJECTS: false
-          SECTION_NAME: waka
-        env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          # Visual & Bar Styling.
+          BAR_STYLE: "svg"
+          BAR_COLOR: "#90CAF9"
+          BAR_TRACK_COLOR: "#172f45"
+          BAR_RADIUS: "4"
+          TEXT_PRIMARY_COLOR: "#c9d1d9"
+          TEXT_SECONDARY_COLOR: "#8b949e"
+
+          # Target section in README.md (<!--START_SECTION:waka--> ... <!--END_SECTION:waka-->)
+          SECTION_NAME: "waka"
+
+          # Language display settings.
+          SHOW_LANGUAGE: "True"
+          # LANG_COUNT: "10"
+
+          # Disable extra sections to keep clean language-only stats.
+          SHOW_OS: "False"
+          SHOW_PROJECTS: "False"
+          SHOW_EDITORS: "False"
+          SHOW_LANGUAGE_PER_REPO: "False"
+          SHOW_TIMEZONE: "False"
+          SHOW_COMMIT: "False"
+          SHOW_DAYS_OF_WEEK: "False"
+          SHOW_SHORT_INFO: "False"
+          SHOW_PROFILE_VIEWS: "False"
+          SHOW_LOC_CHART: "False"
+          SHOW_TOTAL_CODE_TIME: "False"
+          SHOW_AI_CODING: "False"
+          SHOW_AI_CODE_TIME: "False"
