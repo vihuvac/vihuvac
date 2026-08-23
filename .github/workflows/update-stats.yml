@@ -1,8 +1,9 @@
 name: Waka Readme
 
 on:
-  schedule: # execute every 2 hours
-    - cron: '* */2 * * *'
+  schedule:
+    # Runs at minute 0 every 2 hours (00:00, 02:00, 04:00, etc.).
+    - cron: "0 */2 * * *"
 
   workflow_dispatch:
 
