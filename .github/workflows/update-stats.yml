@@ -56,8 +56,11 @@ jobs:
           SHOW_AI_CODE_TIME: "False"
 
       # Strip hardcoded labels the action doesn't expose flags for.
+      # The action already pushed its own commit, so we must pull --rebase first
+      # to sync the local workspace before we can push our cleanup commit on top.
       - name: Remove hardcoded labels from stats
         run: |
+          git pull --rebase
           sed -i '/^📊 \*\*This Week I Spent My Time On\*\*/d' README.md
           sed -i '/^💬 \*\*Programming Languages:\*\*/d' README.md
           git config user.name "readme-bot"
