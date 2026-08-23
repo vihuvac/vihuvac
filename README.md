@@ -46,7 +46,6 @@
 ## ⏳ Weekly Development Focus
 
 <!--START_SECTION:waka-->
-📊 **This Week I Spent My Time On** 
 
 ```text
 💬 Programming Languages: 
