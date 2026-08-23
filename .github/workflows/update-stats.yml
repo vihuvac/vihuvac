@@ -33,17 +33,6 @@ jobs:
           PULL_BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
           PUSH_BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
 
-          # Visual & Bar Styling.
-          BAR_STYLE: "svg"
-          BAR_COLOR: "#90CAF9"
-          BAR_TRACK_COLOR: "#172f45"
-          BAR_RADIUS: "4"
-          TEXT_PRIMARY_COLOR: "#c9d1d9"
-          TEXT_SECONDARY_COLOR: "#8b949e"
-
-          # Target section in `README.md`.
-          SECTION_NAME: "waka"
-
           # Language display settings.
           SHOW_LANGUAGE: "True"
           # LANG_COUNT: "10"
