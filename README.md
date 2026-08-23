@@ -48,12 +48,17 @@
 <!--START_SECTION:waka-->
 📊 **This Week I Spent My Time On** 
 
+```text
 💬 Programming Languages: 
-<svg width="720" viewBox="0 0 720 140" xmlns="http://www.w3.org/2000/svg"><text x="0" y="16" font-family="monospace" font-size="13" fill="#c9d1d9">TypeScript</text><text x="170" y="16" font-family="monospace" font-size="13" fill="#8b949e">10 hrs 26 mins</text><rect x="280" y="6" width="360" height="8" rx="4" fill="#172f45"/><rect x="280" y="6" width="176" height="8" rx="4" fill="#90CAF9"/><text x="648" y="16" font-family="monospace" font-size="12" fill="#8b949e">48.98%</text><text x="0" y="40" font-family="monospace" font-size="13" fill="#c9d1d9">Other</text><text x="170" y="40" font-family="monospace" font-size="13" fill="#8b949e">3 hrs 44 mins</text><rect x="280" y="30" width="360" height="8" rx="4" fill="#172f45"/><rect x="280" y="30" width="63" height="8" rx="4" fill="#90CAF9"/><text x="648" y="40" font-family="monospace" font-size="12" fill="#8b949e">17.54%</text><text x="0" y="64" font-family="monospace" font-size="13" fill="#c9d1d9">Markdown</text><text x="170" y="64" font-family="monospace" font-size="13" fill="#8b949e">2 hrs 50 mins</text><rect x="280" y="54" width="360" height="8" rx="4" fill="#172f45"/><rect x="280" y="54" width="48" height="8" rx="4" fill="#90CAF9"/><text x="648" y="64" font-family="monospace" font-size="12" fill="#8b949e">13.30%</text><text x="0" y="88" font-family="monospace" font-size="13" fill="#c9d1d9">JSON</text><text x="170" y="88" font-family="monospace" font-size="13" fill="#8b949e">2 hrs 22 mins</text><rect x="280" y="78" width="360" height="8" rx="4" fill="#172f45"/><rect x="280" y="78" width="40" height="8" rx="4" fill="#90CAF9"/><text x="648" y="88" font-family="monospace" font-size="12" fill="#8b949e">11.11%</text><text x="0" y="112" font-family="monospace" font-size="13" fill="#c9d1d9">YAML</text><text x="170" y="112" font-family="monospace" font-size="13" fill="#8b949e">46 mins</text><rect x="280" y="102" width="360" height="8" rx="4" fill="#172f45"/><rect x="280" y="102" width="13" height="8" rx="4" fill="#90CAF9"/><text x="648" y="112" font-family="monospace" font-size="12" fill="#8b949e">3.61%</text></svg>
+TypeScript               10 hrs 26 mins      ████████████░░░░░░░░░░░░░   48.98 % 
+Other                    3 hrs 44 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.54 % 
+Markdown                 2 hrs 50 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.30 % 
+JSON                     2 hrs 22 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
+YAML                     46 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.61 % 
+```
 
 
-
- Last Updated on 23/08/2026 20:20:09 UTC
+ Last Updated on 23/08/2026 20:31:06 UTC
 <!--END_SECTION:waka-->
 
 ## 🎯 Currently Exploring
