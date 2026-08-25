@@ -26,7 +26,8 @@ jobs:
           # Checks out the PR branch dynamically on pull_request, or the target branch on push/schedule.
           ref: ${{ github.head_ref || github.ref_name }}
 
-      - uses: anmol098/waka-readme-stats@master
+      # TODO: Move back to `anmol098/waka-readme-stats@master` after testing the update for the PR.
+      - uses: vihuvac/waka-readme-stats@fix/Truncated-data-before-sorting
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -37,7 +38,7 @@ jobs:
 
           # Language display settings.
           SHOW_LANGUAGE: "True"
-          # LANG_COUNT: "10"
+          # SHOW_LANGUAGE_COUNT: "20"
 
           # Hide the three labels.
           SHOW_UPDATED_DATE: "False"
