@@ -26,7 +26,7 @@ jobs:
           # Checks out the PR branch dynamically on pull_request, or the target branch on push/schedule.
           ref: ${{ github.head_ref || github.ref_name }}
 
-      - uses: vihuvac/read-waka-stats@feature/verify-commits
+      - uses: vihuvac/read-waka-stats@main
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
