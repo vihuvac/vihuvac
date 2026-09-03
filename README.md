@@ -41,7 +41,7 @@
 
 ## 📈 GitHub Analytics
 
-[![Victor's GitHub Stats](https://github-readme-stats.vercel.app/api?username=vihuvac&show_icons=true&theme=gotham)](https://github.com/vihuvac)
+[![Victor's GitHub Stats](https://github-stats-extended.vercel.app/api?username=vihuvac&show_icons=true&theme=gotham)](https://github.com/vihuvac)
 
 ## ⏳ Weekly Development Focus
 
