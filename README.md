@@ -50,11 +50,11 @@
 
 ```text
 💬 Programming Languages: 
-YAML                     9 hrs 15 mins       ███████████░░░░░░░░░░░░░░   45.97 % 
-Markdown                 5 hrs 7 mins        ██████░░░░░░░░░░░░░░░░░░░   25.47 % 
-TypeScript               2 hrs 29 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.38 % 
-JSON                     1 hr 51 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.24 % 
-Bash                     29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.48 % 
+YAML                     6 hrs 57 mins       ██████████░░░░░░░░░░░░░░░   40.78 % 
+Markdown                 4 hrs 18 mins       ██████░░░░░░░░░░░░░░░░░░░   25.29 % 
+TypeScript               2 hrs 52 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.88 % 
+JSON                     1 hr 35 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.31 % 
+HTTP Request             41 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.03 % 
 ```
 <!--END_SECTION:waka-->
 
