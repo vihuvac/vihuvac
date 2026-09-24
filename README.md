@@ -46,15 +46,15 @@
 ## ⏳ Weekly Development Focus
 
 <!--START_SECTION:waka-->
-📊 **This Week I Spent My Time On**
+📊 **This Week I Spent My Time On** 
 
 ```text
-💬 Programming Languages:
-TypeScript               11 hrs 12 mins      ████████████░░░░░░░░░░░░░   48.95 %
-JSON                     3 hrs 18 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.41 %
-Bash                     2 hrs 1 min         ██░░░░░░░░░░░░░░░░░░░░░░░   08.88 %
-Markdown                 1 hr 42 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.48 %
-HTTP Request             56 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.12 %
+💬 Programming Languages: 
+TypeScript               11 hrs 12 mins      ████████████░░░░░░░░░░░░░   48.95 % 
+JSON                     3 hrs 18 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.41 % 
+Bash                     2 hrs 1 min         ██░░░░░░░░░░░░░░░░░░░░░░░   08.88 % 
+Markdown                 1 hr 42 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.48 % 
+HTTP Request             56 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.12 % 
 ```
 <!--END_SECTION:waka-->
 
