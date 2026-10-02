@@ -50,11 +50,11 @@
 
 ```text
 💬 Programming Languages: 
-Kotlin                   9 hrs 20 mins       ███████████░░░░░░░░░░░░░░   43.37 % 
-Other                    2 hrs 57 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.70 % 
-TypeScript               2 hrs 49 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.13 % 
-JSON                     2 hrs 46 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.91 % 
-Markdown                 1 hr 59 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.24 % 
+Kotlin                   9 hrs 20 mins       ██████████░░░░░░░░░░░░░░░   40.66 % 
+TypeScript               3 hrs 39 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.92 % 
+JSON                     2 hrs 16 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.89 % 
+Other                    2 hrs 11 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.52 % 
+Markdown                 2 hrs               ██░░░░░░░░░░░░░░░░░░░░░░░   08.77 % 
 ```
 <!--END_SECTION:waka-->
 
