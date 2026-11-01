@@ -46,16 +46,7 @@
 ## ⏳ Weekly Development Focus
 
 <!--START_SECTION:waka-->
-📊 **This Week I Spent My Time On** 
 
-```text
-💬 Programming Languages: 
-Markdown                 9 hrs 5 mins        ███████░░░░░░░░░░░░░░░░░░   26.72 % 
-Bash                     6 hrs 8 mins        █████░░░░░░░░░░░░░░░░░░░░   18.06 % 
-Swift                    4 hrs 59 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.68 % 
-Other                    4 hrs 12 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.38 % 
-TypeScript               2 hrs 21 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   06.95 % 
-```
 <!--END_SECTION:waka-->
 
 ## 🎯 Currently Exploring
