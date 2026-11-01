@@ -50,11 +50,11 @@
 
 ```text
 💬 Programming Languages: 
-Markdown                 9 hrs 45 mins       ██████░░░░░░░░░░░░░░░░░░░   24.93 % 
-Swift                    8 hrs 29 mins       █████░░░░░░░░░░░░░░░░░░░░   21.68 % 
-Bash                     6 hrs 14 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.94 % 
-Other                    5 hrs 14 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.36 % 
-TypeScript               2 hrs 21 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   06.04 % 
+Markdown                 9 hrs 5 mins        ███████░░░░░░░░░░░░░░░░░░   26.72 % 
+Bash                     6 hrs 8 mins        █████░░░░░░░░░░░░░░░░░░░░   18.06 % 
+Swift                    4 hrs 59 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.68 % 
+Other                    4 hrs 12 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.38 % 
+TypeScript               2 hrs 21 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   06.95 % 
 ```
 <!--END_SECTION:waka-->
 
