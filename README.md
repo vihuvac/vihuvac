@@ -46,7 +46,16 @@
 ## ⏳ Weekly Development Focus
 
 <!--START_SECTION:waka-->
+📊 **This Week I Spent My Time On** 
 
+```text
+💬 Programming Languages: 
+Kotlin                   9 hrs 14 mins       ████████░░░░░░░░░░░░░░░░░   33.61 % 
+Other                    6 hrs 22 mins       ██████░░░░░░░░░░░░░░░░░░░   23.21 % 
+Markdown                 3 hrs 26 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.54 % 
+Bash                     3 hrs 2 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.06 % 
+TypeScript               1 hr 29 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.44 % 
+```
 <!--END_SECTION:waka-->
 
 ## 🎯 Currently Exploring
